@@ -1,6 +1,7 @@
-package com.gy.android.retrofit2utils.http;
+package com.gy.android.librarydemo.http;
 
 import okhttp3.OkHttpClient;
+import okhttp3.Request;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -18,6 +19,7 @@ public class RetrofitFactory {
      */
     private RetrofitFactory() {
     }
+
     /**
      * 得到RetrofitFactory的实例
      *
